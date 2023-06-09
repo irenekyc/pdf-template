@@ -3,15 +3,21 @@
   "version": "1.0.0",
   "description": "",
   "source": "index.html",
+  "homepage": "https://irenekyc.github.io/pdf-template",
   "scripts": {
     "dev": "parcel",
     "test": "echo \"Error: no test specified\" && exit 1",
     "prebuild": "rm -rf dist",
-    "build": "parcel build *.html"
+    "build": "parcel build *.html --public-url ./",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "parcel": "^2.9.2"
+  },
+  "dependencies": {
+    "gh-pages": "^5.0.0"
   }
 }
