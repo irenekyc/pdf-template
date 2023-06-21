@@ -1,0 +1,48 @@
+.page-7 {
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+  &__subtitle {
+    font-size: 12px;
+  }
+
+  .exhibit-c {
+    margin-top: 30px;
+    padding-left: 10px;
+    &__main {
+      margin-top: 20px;
+      &__row {
+        display: flex;
+        align-items: stretch;
+        &__cell {
+          width: 20%;
+          padding: 0 10px;
+          padding-bottom: 20px;
+          &.narrow {
+            width: 17%;
+          }
+          &.wide {
+            width: 23%;
+          }
+          &.header__cell {
+            font-weight: 400;
+            color: $mint;
+            text-align: center;
+            font-size: 14px;
+          }
+          &.row__header {
+            font-size: 14px;
+            text-align: right;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            padding-bottom: 20px;
+          }
+          &.row__content {
+            font-size: 8px;
+            border-left: 2px solid black;
+          }
+        }
+      }
+    }
+  }
+}
