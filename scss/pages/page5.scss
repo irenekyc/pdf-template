@@ -2,7 +2,7 @@ $yellow: #fffde5;
 .page-5 {
   h1 {
     width: 90%;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
   .width--80 {
     width: 80%;
@@ -13,25 +13,25 @@ $yellow: #fffde5;
 
   .exhibit-a {
     width: 100%;
-    padding: 30px;
+    padding: 10px;
     background: rgba($yellow, 0.4);
-    padding-bottom: 60px;
-    margin-top: 60px;
+    padding-bottom: 20px;
+    margin-top: 20px;
 
     &__title {
-      font-size: 20px;
+      font-size: 16px;
       font-weight: 700;
       line-height: 1.5;
     }
     &__small-text {
-      font-size: 14px;
+      font-size: 12px;
       line-height: 1.2;
     }
     &__main {
-      margin: 30px 0;
+      margin: 10px 0;
       border-top: 5px solid #ffe8c8;
       border-bottom: 5px solid #ffe8c8;
-      padding: 30px 0;
+      padding: 10px 0;
       display: flex;
 
       &__left {
@@ -41,16 +41,16 @@ $yellow: #fffde5;
         flex-direction: column;
         align-items: flex-start;
         justify-content: center;
-        padding: 0 2%;
+        padding: 0 5px;
         &__title {
-          font-size: 36px;
+          font-size: 28px;
           font-weight: 700;
           line-height: 2;
           margin-bottom: 10px;
           text-align: left;
         }
         &__subtitle {
-          font-size: 18px;
+          font-size: 16px;
           font-weight: 700;
           line-height: 1.5;
         }
@@ -61,7 +61,7 @@ $yellow: #fffde5;
       }
       &__right {
         width: 70%;
-        padding: 0 4%;
+        padding: 0 5px;
         padding-bottom: 20px;
         display: flex;
         justify-content: space-between;
@@ -71,12 +71,12 @@ $yellow: #fffde5;
           width: 33%;
           background: $mint;
           padding: 16px;
-          margin: 10px;
+          margin: 0px 5px;
           h3 {
-            font-size: 16px;
+            font-size: 14px;
           }
           p {
-            font-size: 12px;
+            font-size: 10px;
           }
 
           &.card-bg--3 {
