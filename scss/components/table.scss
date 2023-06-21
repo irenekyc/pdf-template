@@ -9,7 +9,7 @@
     flex: 1;
     border-bottom: 1px solid black;
     &__header {
-      font-size: 16px;
+      font-size: 14px;
       font-weight: 700;
       padding: 5px 40px;
       border: 1px solid black;
@@ -22,6 +22,7 @@
       border-left: 1px solid black;
       display: flex;
       text-align: center;
+      font-size: 12px;
       align-items: stretch;
       p {
         margin: 0;
@@ -32,7 +33,7 @@
       &__cell {
         flex: 1;
         border-right: 1px solid black;
-        padding: 10px;
+        padding: 8px;
         display: flex;
         justify-content: center;
         align-items: center;
