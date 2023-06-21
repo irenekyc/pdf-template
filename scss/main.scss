@@ -1,6 +1,8 @@
 @import "variables";
 
 @import "./components/exhibits.scss";
+@import "./components/list.scss";
+@import "./components/table.scss";
 
 @import "./pages/page1.scss";
 @import "./pages/page2.scss";
@@ -14,7 +16,9 @@
 @import "./pages/page10.scss";
 @import "./pages/page11.scss";
 @import "./pages/page12.scss";
+@import "./pages/page13.scss";
 @import "./pages/page14.scss";
+@import "./pages/page15.scss";
 
 * {
   box-sizing: border-box;

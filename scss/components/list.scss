@@ -1,0 +1,18 @@
+ul.feature-lists {
+  padding-left: 100px;
+  color: $mint;
+  margin-bottom: 30px;
+  li {
+    margin-bottom: 8px;
+    font-weight: 500;
+  }
+}
+.demo {
+  font-size: 20px;
+  text-align: center;
+  font-weight: 700;
+  a {
+    text-decoration: underline;
+    color: black;
+  }
+}
