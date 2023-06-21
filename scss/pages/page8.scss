@@ -1,10 +1,18 @@
 .cost-savings-chart {
-  width: 450;
-  height: 400px;
-  margin: 50px auto;
-  margin-top: 150px;
+  width: 450px;
+  height: 500px;
+  margin: 80px auto;
+
   display: flex;
   flex-direction: column;
+  position: relative;
+
+  &__legend-arrow {
+    position: absolute;
+    height: 80%;
+    left: 90px;
+    top: 10%;
+  }
 }
 
 .cost-savings-chart__top,
@@ -20,6 +28,8 @@
 
 .cost-savings-chart__legend {
   flex-basis: 120px;
+  padding-top: 80px;
+  padding-right: 40px;
 }
 
 .cost-savings-chart__chart {
@@ -46,11 +56,59 @@
 .bar-a,
 .bar-c,
 .bar-d {
-  margin-left: 80px;
+  margin-left: 65px;
+}
+
+.bar-b,
+.bar-d {
+  display: flex;
+  align-items: flex-end;
+}
+
+.bar-a,
+.bar-c {
+  display: flex;
+  align-items: flex-start;
+}
+
+.bar__bg {
+  position: relative;
+}
+
+.bar-b--number,
+.bar-d--number {
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 999;
+  color: black;
+}
+
+.bar-a--number,
+.bar-c--number {
+  position: absolute;
+  bottom: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 999;
+  color: black;
+}
+
+.bar-b__legend,
+.bar-d__legend,
+.bar-a__legend,
+.bar-c__legend {
+  text-align: center;
+  font-size: 26px;
+  font-weight: 700;
+  width: 100%;
+  margin: 0;
+  z-index: 100;
 }
 
 .bar-b {
-  margin-left: 160px;
+  margin-left: 130px;
 }
 
 #bar-chart-c {
@@ -80,4 +138,40 @@
   background: rgba(59, 150, 139, 1);
   content: "";
   bottom: 0;
+}
+
+.cost-savings {
+  &__table {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+
+    &__cell {
+      width: 50%;
+
+      &__heading {
+        display: flex;
+        align-items: center;
+        color: $mint;
+        font-size: 20px;
+        p {
+          margin: 0;
+        }
+
+        &__large {
+          font-size: 32px;
+          font-weight: 900;
+          margin-right: 20px !important;
+        }
+      }
+      &__content {
+        padding-left: 40px;
+        padding-bottom: 60px;
+        p {
+          margin: 0;
+          padding-right: 40px;
+        }
+      }
+    }
+  }
 }
