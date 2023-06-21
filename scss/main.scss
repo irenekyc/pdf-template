@@ -60,7 +60,7 @@ body {
 
 .page--main--header--light {
   margin-top: 10px;
-  font-size: 26px;
+  font-size: 24px;
   font-weight: 400;
   color: rgba(59, 150, 139, 1);
   margin-bottom: 5px;
@@ -69,4 +69,10 @@ body {
 
 .text--green {
   color: rgba(59, 150, 139, 1);
+}
+
+.page--main--header-description {
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 14px;
 }

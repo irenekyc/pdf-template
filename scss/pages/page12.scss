@@ -16,11 +16,11 @@
         align-items: flex-start;
         &.cell__header {
           font-weight: 600;
-          font-size: 14px;
+          font-size: 12px;
           padding: 10px 0;
           border-top: 0;
         }
-        padding: 20px 0;
+        padding: 10px 0;
         border-top: 3px solid $mint;
         &__cell {
           width: 27%;
@@ -29,9 +29,9 @@
             width: 19%;
           }
           &.row__header {
-            font-size: 18px;
+            font-size: 14px;
           }
-          font-size: 12px;
+          font-size: 10px;
         }
       }
     }
