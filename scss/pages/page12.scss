@@ -1,0 +1,54 @@
+.page-12 {
+  .page--main--header--light {
+    font-size: 22px;
+  }
+
+  .exhibit-g {
+    &__main {
+      p {
+        margin: 0;
+      }
+      margin-top: 20px;
+      display: flex;
+      flex-direction: column;
+      &__row {
+        display: flex;
+        align-items: flex-start;
+        &.cell__header {
+          font-weight: 600;
+          font-size: 14px;
+          padding: 10px 0;
+          border-top: 0;
+        }
+        padding: 20px 0;
+        border-top: 3px solid $mint;
+        &__cell {
+          width: 27%;
+          padding-right: 20px;
+          &.narrow {
+            width: 19%;
+          }
+          &.row__header {
+            font-size: 18px;
+          }
+          font-size: 12px;
+        }
+      }
+    }
+  }
+
+  .exhibit-h {
+    margin-top: 20px;
+    &__main {
+      padding: 20px 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: stretch;
+      &__cell {
+        width: 24%;
+        background: #ffe8c8;
+        padding: 30px 15px;
+      }
+    }
+  }
+}
