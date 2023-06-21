@@ -3,11 +3,20 @@
     margin-top: 10px;
   }
   &__table {
+    margin-bottom: 20px;
+    margin-top: 20px;
     &__row {
       display: flex;
       align-items: flex-start;
-      font-size: 12px;
-      border-bottom: $yellow-border;
+      font-size: 10px;
+      border-bottom: $yellow-border-small;
+      line-height: 1.5;
+      padding-top: 8px;
+      padding-bottom: 8px;
+
+      &:last-child {
+        border-bottom: none;
+      }
       &__category {
         width: 30%;
         padding-right: 10px;
@@ -18,11 +27,17 @@
       }
       &__manifest-help {
         width: 40%;
+        font-weight: 700;
       }
     }
     &__header {
       font-weight: 700;
-      font-size: 16px;
+      font-size: 12px;
     }
+  }
+  &__remarks {
+    font-size: 8px;
+    text-align: center;
+    text-decoration: italic;
   }
 }
