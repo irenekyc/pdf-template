@@ -1,0 +1,92 @@
+$yellow: #fffde5;
+.page-5 {
+  h1 {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+  .width--80 {
+    width: 80%;
+    margin: 0 auto;
+    line-height: 1.5;
+    font-weight: 300;
+  }
+
+  .exhibit-a {
+    width: 100%;
+    padding: 30px;
+    background: rgba($yellow, 0.4);
+    padding-bottom: 60px;
+    margin-top: 60px;
+
+    &__title {
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 1.5;
+    }
+    &__small-text {
+      font-size: 14px;
+      line-height: 1.2;
+    }
+    &__main {
+      margin: 30px 0;
+      border-top: 5px solid #ffe8c8;
+      border-bottom: 5px solid #ffe8c8;
+      padding: 30px 0;
+      display: flex;
+
+      &__left {
+        border-right: 5px solid #ffe8c8;
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        padding: 0 5%;
+        &__title {
+          font-size: 36px;
+          font-weight: 700;
+          line-height: 2;
+          margin-bottom: 10px;
+          text-align: left;
+        }
+        &__subtitle {
+          font-size: 20px;
+          font-weight: 700;
+          line-height: 1.5;
+        }
+        p {
+          margin: 0;
+          line-height: 1.5;
+        }
+      }
+      &__right {
+        width: 70%;
+        padding: 0 8%;
+        padding-bottom: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: stretch;
+        flex-wrap: wrap;
+        &__card {
+          width: 30%;
+          background: $mint;
+          padding: 16px;
+          margin: 10px;
+
+          &.card-bg--3 {
+            background: rgba($mint, 0.3);
+          }
+          &.card-bg--5 {
+            background: rgba($mint, 0.5);
+          }
+          &.card-bg--7 {
+            background: rgba($mint, 0.7);
+          }
+          &.card-bg--9 {
+            background: rgba($mint, 0.9);
+          }
+        }
+      }
+    }
+  }
+}

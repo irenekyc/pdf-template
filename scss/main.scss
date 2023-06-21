@@ -4,6 +4,7 @@
 @import "./pages/page2.scss";
 @import "./pages/page3.scss";
 @import "./pages/page4.scss";
+@import "./pages/page5.scss";
 @import "./pages/page8.scss";
 @import "./pages/page14.scss";
 
@@ -42,6 +43,15 @@ body {
   margin-left: 50px;
   margin-top: 150px;
   margin-bottom: 50px;
+}
+
+.page--main--header--light {
+  margin-top: 50px;
+  font-size: 26px;
+  font-weight: 400;
+  color: rgba(59, 150, 139, 1);
+  margin-bottom: 20px;
+  line-height: 1.5;
 }
 
 .text--green {
