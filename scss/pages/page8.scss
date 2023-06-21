@@ -1,7 +1,8 @@
 .cost-savings-chart {
   width: 450px;
-  height: 500px;
-  margin: 80px auto;
+  height: 400px;
+  margin: 50px auto;
+  margin-bottom: 80px;
 
   display: flex;
   flex-direction: column;
@@ -9,9 +10,13 @@
 
   &__legend-arrow {
     position: absolute;
-    height: 80%;
+    height: 60%;
     left: 90px;
-    top: 10%;
+    top: 20%;
+
+    img {
+      height: 100%;
+    }
   }
 }
 
@@ -144,7 +149,6 @@
   &__table {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 40px;
 
     &__cell {
       width: 50%;
@@ -153,13 +157,13 @@
         display: flex;
         align-items: center;
         color: $mint;
-        font-size: 20px;
+        font-size: 16px;
         p {
           margin: 0;
         }
 
         &__large {
-          font-size: 32px;
+          font-size: 24px;
           font-weight: 900;
           margin-right: 20px !important;
         }
@@ -167,6 +171,7 @@
       &__content {
         padding-left: 40px;
         padding-bottom: 60px;
+        font-size: 14px;
         p {
           margin: 0;
           padding-right: 40px;
