@@ -1,0 +1,18 @@
+.exhibit {
+  width: 100%;
+  padding: 10px;
+  background: rgba($yellow, 0.4);
+  padding-bottom: 20px;
+  margin-top: 20px;
+
+  &__title {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.5;
+    color: $mint;
+  }
+  &__small-text {
+    font-size: 12px;
+    line-height: 1.2;
+  }
+}

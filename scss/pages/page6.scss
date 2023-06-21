@@ -1,0 +1,28 @@
+.exhibit-b {
+  &__main {
+    margin-top: 10px;
+  }
+  &__table {
+    &__row {
+      display: flex;
+      align-items: flex-start;
+      font-size: 12px;
+      border-bottom: $yellow-border;
+      &__category {
+        width: 30%;
+        padding-right: 10px;
+      }
+      &__task {
+        width: 40%;
+        padding-right: 10px;
+      }
+      &__manifest-help {
+        width: 40%;
+      }
+    }
+    &__header {
+      font-weight: 700;
+      font-size: 16px;
+    }
+  }
+}
