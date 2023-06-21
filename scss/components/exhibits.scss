@@ -5,15 +5,22 @@
   padding-bottom: 20px;
   margin-top: 20px;
 
+  &__exhibit-number {
+    margin: 0;
+    font-size: 14px;
+  }
+
   &__title {
     font-size: 16px;
     font-weight: 700;
     line-height: 1.5;
     color: $mint;
     margin-bottom: 0;
+    margin-top: 0;
   }
   &__small-text {
     font-size: 12px;
     line-height: 1.2;
+    margin: 0;
   }
 }
