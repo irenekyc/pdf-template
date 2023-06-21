@@ -26,12 +26,12 @@
 
       &__left {
         border-right: $yellow-border;
-        width: 30%;
+        width: 40%;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
         justify-content: center;
-        padding: 0 5px;
+        padding: 0 20px;
         &__title {
           font-size: 28px;
           font-weight: 700;
@@ -50,8 +50,8 @@
         }
       }
       &__right {
-        width: 70%;
-        padding: 0 15px;
+        width: 60%;
+        padding: 0 20px;
         padding-bottom: 20px;
         display: flex;
         justify-content: space-evenly;
