@@ -1,9 +1,13 @@
 .page-9 {
   position: relative;
+  .page--main-header {
+    font-size: 28px;
+    margin-top: 50px;
+  }
   ul {
-    padding-left: 80px;
+    padding-left: 100px;
     color: $mint;
-    margin-top: 20px;
+    margin-bottom: 30px;
     li {
       margin-bottom: 8px;
       font-weight: 500;
@@ -23,7 +27,7 @@
     bottom: 0;
     left: 0;
     right: 0;
-    height: 60%;
+    height: 55%;
     img {
       width: 100%;
       object-fit: cover;
