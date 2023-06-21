@@ -1,0 +1,83 @@
+.cost-savings-chart {
+  width: 450;
+  height: 400px;
+  margin: 50px auto;
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+}
+
+.cost-savings-chart__top,
+.cost-savings-chart__bottom {
+  display: flex;
+  width: 100%;
+  flex: 1;
+}
+
+.cost-savings-chart__top .cost-savings-chart__chart {
+  border-bottom: 5px solid #000;
+}
+
+.cost-savings-chart__legend {
+  flex-basis: 120px;
+}
+
+.cost-savings-chart__chart {
+  display: flex;
+  flex: 1;
+}
+
+.cost-savings-chart__chart--bar {
+  width: 35px;
+  height: 100%;
+  position: relative;
+  color: white;
+}
+
+#bar-chart-a {
+  position: absolute;
+  left: 0;
+  right: 0;
+  background: rgba(59, 150, 139, 1);
+  content: "";
+  height: 50%;
+}
+
+.bar-a,
+.bar-c,
+.bar-d {
+  margin-left: 80px;
+}
+
+.bar-b {
+  margin-left: 160px;
+}
+
+#bar-chart-c {
+  position: absolute;
+  left: 0;
+  right: 0;
+  background: rgba(59, 150, 139, 1);
+  content: "";
+  height: 100%;
+}
+
+#bar-chart-b {
+  height: 75%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  background: rgba(59, 150, 139, 1);
+  content: "";
+  bottom: 0;
+}
+
+#bar-chart-d {
+  height: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  background: rgba(59, 150, 139, 1);
+  content: "";
+  bottom: 0;
+}

@@ -1,0 +1,49 @@
+@import "variables";
+
+@import "./pages/page1.scss";
+@import "./pages/page2.scss";
+@import "./pages/page3.scss";
+@import "./pages/page4.scss";
+@import "./pages/page8.scss";
+@import "./pages/page14.scss";
+
+* {
+  box-sizing: border-box;
+}
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Work Sans;
+}
+
+.page {
+  padding: 50px;
+  width: 100vw;
+  height: 141vw;
+  background: rgba(255, 246, 239, 1);
+}
+
+.page.background--white {
+  background: white;
+}
+
+.page-start {
+  page-break-before: always;
+}
+
+.name {
+  color: #fff;
+}
+
+.page--main-header {
+  font-size: 36px;
+  color: rgba(59, 150, 139, 1);
+  font-weight: 600;
+  margin-left: 50px;
+  margin-top: 150px;
+  margin-bottom: 50px;
+}
+
+.text--green {
+  color: rgba(59, 150, 139, 1);
+}
