@@ -39,8 +39,15 @@ body {
 
   &__number {
     position: absolute;
+    display: flex;
+    align-items: center;
+    img {
+      height: 16px;
+      width: auto;
+      margin-right: 10px;
+    }
     bottom: 30px;
-    right: 15px;
+    right: 20px;
   }
 }
 

@@ -59,16 +59,18 @@
           width: 30%;
           background: $mint;
           padding: 8px;
+          padding-bottom: 15px;
           margin-top: 5px;
           margin-bottom: 5px;
           h3 {
+            margin-top: 0;
             font-size: 14px;
             line-height: 1.2;
           }
           p {
             font-size: 10px;
             line-height: 1.5;
-            padding-right: 10px;
+            padding-right: 20px;
           }
 
           &.card-bg--3 {
