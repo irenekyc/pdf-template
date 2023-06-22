@@ -41,6 +41,11 @@ body {
     position: absolute;
     display: flex;
     align-items: center;
+    z-index: 9999;
+    p {
+      margin: 0;
+      font-size: 16px;
+    }
     img {
       height: 16px;
       width: auto;
@@ -90,4 +95,8 @@ body {
   margin-bottom: 10px;
   font-size: 14px;
   padding-right: 40px;
+}
+
+.text--white {
+  color: white;
 }
