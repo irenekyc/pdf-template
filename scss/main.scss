@@ -35,6 +35,13 @@ body {
   width: 100vw;
   height: 141vw;
   background: rgba(255, 246, 239, 1);
+  position: relative;
+
+  &__number {
+    position: absolute;
+    bottom: 30px;
+    right: 15px;
+  }
 }
 
 .page.background--white {
