@@ -32,12 +32,12 @@
       }
       &__cell {
         border-right: 1px solid black;
-        padding: 8px;
+        padding: 2px;
         display: flex;
         justify-content: center;
         align-items: center;
 
-        &.background-orange {
+        &.background--orange {
           background: $orange;
         }
 

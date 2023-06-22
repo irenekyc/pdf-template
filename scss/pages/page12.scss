@@ -4,6 +4,7 @@
   }
 
   .exhibit-g {
+    margin-top: 40px;
     &__main {
       p {
         margin: 0;
@@ -16,12 +17,12 @@
         align-items: flex-start;
         &.cell__header {
           font-weight: 600;
-          font-size: 12px;
+          font-size: 14px;
           padding: 10px 0;
           border-top: 0;
         }
         padding: 10px 0;
-        border-top: 3px solid $mint;
+        border-top: 2px solid $mint;
         &__cell {
           width: 27%;
           padding-right: 20px;
@@ -29,7 +30,7 @@
             width: 19%;
           }
           &.row__header {
-            font-size: 14px;
+            font-size: 16px;
           }
           font-size: 10px;
         }

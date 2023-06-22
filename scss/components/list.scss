@@ -2,8 +2,10 @@ ul.feature-lists {
   padding-left: 100px;
   color: $mint;
   margin-bottom: 30px;
+  padding-right: 60px;
   li {
-    margin-bottom: 8px;
+    font-size: 14px;
+    margin-bottom: 5px;
     font-weight: 500;
   }
 }

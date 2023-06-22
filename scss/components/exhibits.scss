@@ -1,8 +1,7 @@
 .exhibit {
   width: 100%;
-  padding: 10px;
+  padding: 20px;
   background: rgba($yellow, 0.4);
-  padding-bottom: 20px;
   margin-top: 20px;
 
   &__exhibit-number {
@@ -11,7 +10,7 @@
   }
 
   &__title {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 700;
     line-height: 1.5;
     color: $mint;
@@ -22,6 +21,7 @@
     font-size: 12px;
     line-height: 1.2;
     margin: 0;
+    padding-right: 40px;
   }
   &__value {
     font-size: 12px;

@@ -5,6 +5,7 @@
   &__title {
     line-height: 1.5;
     padding-right: 30px;
+    margin: 0;
   }
 }
 
@@ -30,6 +31,12 @@
       &__category {
         width: 30%;
         padding-right: 10px;
+        display: flex;
+        img {
+          width: 24px;
+          height: 24px;
+          margin-right: 8px;
+        }
       }
       &__task {
         width: 40%;
@@ -43,6 +50,7 @@
     &__header {
       font-weight: 700;
       font-size: 12px;
+      padding-bottom: 4px;
     }
   }
   &__remarks {

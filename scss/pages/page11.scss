@@ -3,27 +3,27 @@
     font-size: 22px;
   }
   .exhibit-e {
-    margin-top: 20px;
+    margin-top: 40px;
     &__main {
       display: flex;
       align-items: center;
     }
     &__image {
-      width: 60%;
+      width: 58%;
       display: flex;
       justify-content: center;
       align-items: center;
       padding: 20px;
-      border-right: 5px solid $mint;
+      border-right: 2px solid $mint;
       img {
         width: 100%;
       }
     }
     &__content {
-      width: 40%;
+      width: 42%;
       padding: 20px;
       height: 100%;
-      font-size: 12px;
+      font-size: 10px;
       p {
         margin: 0;
       }
@@ -44,7 +44,7 @@
         display: flex;
         align-items: flex-start;
         padding-bottom: 20px;
-        border-bottom: 5px solid $mint;
+        border-bottom: 2px solid $mint;
 
         &__cell {
           width: 25%;

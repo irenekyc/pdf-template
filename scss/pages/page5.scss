@@ -3,21 +3,22 @@
     margin-bottom: 10px;
   }
   .width--80 {
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
     line-height: 1.5;
-    font-weight: 300;
+    font-weight: 400;
   }
 
   .exhibit-a {
     width: 100%;
-    padding: 10px;
+    padding: 20px;
     background: rgba($yellow, 0.4);
-    padding-bottom: 20px;
+    padding-bottom: 30px;
     margin-top: 50px;
 
     &__main {
       margin: 10px 0;
+      margin-top: 30px;
       border-top: $yellow-border;
       border-bottom: $yellow-border;
       padding: 10px 0;
@@ -25,12 +26,12 @@
 
       &__left {
         border-right: $yellow-border;
-        width: 35%;
+        width: 30%;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
         justify-content: center;
-        padding: 0 20px;
+        padding: 0 16px;
         &__title {
           font-size: 28px;
           font-weight: 900;
@@ -49,8 +50,8 @@
         }
       }
       &__right {
-        width: 65%;
-        padding: 0 20px;
+        width: 70%;
+        padding: 0 30px;
         padding-bottom: 20px;
         display: flex;
         justify-content: space-evenly;
@@ -64,9 +65,13 @@
           margin-bottom: 5px;
           h3 {
             font-size: 14px;
+            line-height: 1.4;
+            padding-right: 10px;
           }
           p {
             font-size: 10px;
+            line-height: 1.5;
+            padding-right: 10px;
           }
 
           &.card-bg--3 {
