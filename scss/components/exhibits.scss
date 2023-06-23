@@ -1,16 +1,16 @@
 .exhibit {
   width: 100%;
-  padding: 20px;
+  padding: 100px;
   background: rgba($yellow, 0.4);
-  margin-top: 20px;
+  margin-top: 100px;
 
   &__exhibit-number {
     margin: 0;
-    font-size: 14px;
+    font-size: 36px;
   }
 
   &__title {
-    font-size: 14px;
+    font-size: 40px;
     font-weight: 700;
     line-height: 1.5;
     color: $mint;
@@ -18,7 +18,7 @@
     margin-top: 0;
   }
   &__small-text {
-    font-size: 12px;
+    font-size: 30px;
     line-height: 1.2;
     margin: 0;
     padding-right: 40px;

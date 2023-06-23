@@ -1,8 +1,8 @@
 .cost-savings-chart {
-  width: 450px;
-  height: 400px;
-  margin: 50px auto;
-  margin-bottom: 80px;
+  width: 1300px;
+  height: 1500px;
+  margin: 250px auto;
+  margin-bottom: 400px;
 
   display: flex;
   flex-direction: column;
@@ -11,7 +11,7 @@
   &__legend-arrow {
     position: absolute;
     height: 60%;
-    left: 90px;
+    left: 180px;
     top: 20%;
 
     img {
@@ -28,13 +28,13 @@
 }
 
 .cost-savings-chart__top .cost-savings-chart__chart {
-  border-bottom: 5px solid #000;
+  border-bottom: 10px solid #000;
 }
 
 .cost-savings-chart__legend {
-  flex-basis: 120px;
-  padding-top: 80px;
-  padding-right: 40px;
+  flex-basis: 268px;
+  padding-top: 280px;
+  padding-right: 120px;
 }
 
 .cost-savings-chart__chart {
@@ -43,7 +43,7 @@
 }
 
 .cost-savings-chart__chart--bar {
-  width: 35px;
+  width: 120px;
   height: 100%;
   position: relative;
   color: white;
@@ -61,7 +61,7 @@
 .bar-a,
 .bar-c,
 .bar-d {
-  margin-left: 65px;
+  margin-left: 200px;
 }
 
 .bar-b,
@@ -83,7 +83,7 @@
 .bar-b--number,
 .bar-d--number {
   position: absolute;
-  top: -30px;
+  top: -60px;
   left: 50%;
   transform: translateX(-50%);
   z-index: 999;
@@ -93,7 +93,7 @@
 .bar-a--number,
 .bar-c--number {
   position: absolute;
-  bottom: -30px;
+  bottom: -60px;
   left: 50%;
   transform: translateX(-50%);
   z-index: 999;
@@ -105,7 +105,7 @@
 .bar-a__legend,
 .bar-c__legend {
   text-align: center;
-  font-size: 26px;
+  font-size: 50px;
   font-weight: 700;
   width: 100%;
   margin: 0;
@@ -113,7 +113,7 @@
 }
 
 .bar-b {
-  margin-left: 130px;
+  margin-left: 400px;
 }
 
 #bar-chart-c {
@@ -157,25 +157,25 @@
         display: flex;
         align-items: center;
         color: $mint;
-        font-size: 14px;
-        margin-bottom: 8px;
+        font-size: 44px;
+        margin-bottom: 24px;
         p {
           margin: 0;
         }
 
         &__large {
-          font-size: 24px;
+          font-size: 60px;
           font-weight: 900;
-          margin-right: 20px !important;
+          margin-right: 60px !important;
         }
       }
       &__content {
-        padding-left: 40px;
-        padding-bottom: 60px;
-        font-size: 14px;
+        padding-left: 100px;
+        padding-bottom: 120px;
+        font-size: 36px;
         p {
           margin: 0;
-          padding-right: 40px;
+          padding-right: 200px;
         }
       }
     }
