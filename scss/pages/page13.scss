@@ -1,4 +1,5 @@
 .page-13 {
+  overflow: hidden;
   position: relative;
   &__image {
     position: absolute;
@@ -7,7 +8,8 @@
     right: 0;
     height: 60%;
     img {
-      width: 100%;
+      width: calc(100% + 20px);
+      margin-left: -10px;
       height: auto;
       object-fit: cover;
     }
